@@ -68,6 +68,9 @@
            map:^id(RACTuple *tuple) {
                return tuple.second;
            }]
+          
+          // 将transformBlock传入
+          // 即将处理好的数据传入
           map:block]
          subscribeNext:^(id x) {
              [subscriber sendNext:x];

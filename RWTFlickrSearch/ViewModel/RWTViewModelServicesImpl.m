@@ -27,7 +27,7 @@
 }
 
 // 获取到具体实现的model,这里即是searchImpl
-- (id<RWTFlickrSearch>)getFlickrSearchService {
+- (id<RWTFlickrSearch>) {
      return self.searchService;
 }
 
